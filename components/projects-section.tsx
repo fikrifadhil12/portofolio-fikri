@@ -29,7 +29,7 @@ export function ProjectsSection() {
       title: "Design System",
       description:
         "Comprehensive design system with reusable components, documentation, and Figma integration for a fintech startup.",
-      image: "/design-system-library.png",
+      image: "/ecomme.png ",
       role: "UI/UX Designer",
       techStack: ["Figma", "Storybook", "React", "Styled Components"],
       demoLink: "https://reactjs-ecommerce1.vercel.app/",
@@ -39,7 +39,7 @@ export function ProjectsSection() {
       title: "Ecommerce fullstack",
       description:
         "Real-time analytics dashboard with interactive charts, data visualization, and customizable reporting features.",
-      image: "/ecomme.png",
+      image: "/design-system-library.png",
       role: "Frontend Developer",
       techStack: ["Vue.js", "react.js", "Node.js"],
       demoLink: "https://your-demo-link.com",
