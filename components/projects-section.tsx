@@ -20,7 +20,7 @@ export function ProjectsSection() {
       description:
         "manajement pruduk Ready-to-Use for Café/Restaurant .",
       image: "/kasir.png",
-      role: "Frontend Developer",
+      role: "Full-Stack Developer",
       techStack: ["Next.js", "TypeScript", "Tailwind CSS", "posgres"],
       demoLink: "https://cofe-shop-kasir.vercel.app/orders",
       githubLink: "https://github.com/your-repo/task-app",
@@ -30,7 +30,7 @@ export function ProjectsSection() {
       description:
         "Comprehensive design system with reusable components, documentation, and Figma integration for a fintech startup.",
       image: "/ecomme.png ",
-      role: "UI/UX Designer",
+      role: "Full-Stack Developer",
       techStack: ["Figma", "Storybook", "React", "Styled Components"],
       demoLink: "https://reactjs-ecommerce1.vercel.app/",
       githubLink: "https://github.com/your-repo/design-system",
@@ -40,7 +40,7 @@ export function ProjectsSection() {
       description:
         "Real-time analytics dashboard with interactive charts, data visualization, and customizable reporting features.",
       image: "/design-system-library.png",
-      role: "Frontend Developer",
+      role: "Full-Stack Developer",
       techStack: ["Vue.js", "react.js", "Node.js"],
       demoLink: "https://your-demo-link.com",
       githubLink: "https://github.com/your-repo/analytics-dashboard",
