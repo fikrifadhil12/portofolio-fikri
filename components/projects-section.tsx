@@ -6,7 +6,7 @@ import { ExternalLink, Github } from "lucide-react"
 export function ProjectsSection() {
   const projects = [
     {
-      title: "QR Code Restaurant Ordering Website for Sale + Admin & Cashier Roles (Ready-to-Use for Café/Restaurant)",
+      title: "QR Code Restaurant Ordering Website for Sale + Admin & Cashier Roles (Ready-to-Use for Café/Restaurant) for mobile ",
       description:
         "Upgrade your restaurant or café with a modern digital system!* I am selling a *ready-to-use website* for *food & beverage ordering via QR Code, complete with **Admin & Cashier roles",
       image: "/cofee.jpeg",
@@ -20,7 +20,7 @@ export function ProjectsSection() {
       description:
         "manajement pruduk Ready-to-Use for Café/Restaurant .",
       image: "/kasir.png",
-      role: "Frontend Developer",
+      role: "Full-Stack Developer",
       techStack: ["Next.js", "TypeScript", "Tailwind CSS", "posgres"],
       demoLink: "https://cofe-shop-kasir.vercel.app/orders",
       githubLink: "https://github.com/your-repo/task-app",
@@ -29,20 +29,20 @@ export function ProjectsSection() {
       title: "Design System",
       description:
         "Comprehensive design system with reusable components, documentation, and Figma integration for a fintech startup.",
-      image: "/design-system-library.png",
-      role: "UI/UX Designer",
+      image: "/ecomme.png ",
+      role: "Full-Stack Developer",
       techStack: ["Figma", "Storybook", "React", "Styled Components"],
       demoLink: "https://reactjs-ecommerce1.vercel.app/",
       githubLink: "https://github.com/your-repo/design-system",
     },
     {
-      title: "Ecommerce fullstack",
+      title: "Helpdesk",
       description:
-        "Real-time analytics dashboard with interactive charts, data visualization, and customizable reporting features.",
-      image: "/ecomme.png",
+        "Get Help When You Need It Most.",
+      image: "/helpdesk.png",
       role: "Frontend Developer",
-      techStack: ["Vue.js", "react.js", "Node.js"],
-      demoLink: "https://your-demo-link.com",
+      techStack: ["Vue.js", "react.js", "taiwlind"],
+      demoLink: "https://helpsdesk.vercel.app/",
       githubLink: "https://github.com/your-repo/analytics-dashboard",
     },
   ]
