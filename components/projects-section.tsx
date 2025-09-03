@@ -43,7 +43,7 @@ export function ProjectsSection() {
       role: "Frontend Developer",
       techStack: ["Vue.js", "react.js", "taiwlind"],
       demoLink: "https://helpsdesk.vercel.app/",
-      githubLink: "https://github.com/your-repo/analytics-dashboard",
+     
     },
   ]
 
