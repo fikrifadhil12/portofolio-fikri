@@ -6,7 +6,7 @@ import { ExternalLink, Github } from "lucide-react"
 export function ProjectsSection() {
   const projects = [
     {
-      title: "QR Code Restaurant Ordering Website for Sale + Admin & Cashier Roles (Ready-to-Use for Café/Restaurant)",
+      title: "QR Code Restaurant Ordering Website for Sale + Admin & Cashier Roles (Ready-to-Use for Café/Restaurant) for mobile ",
       description:
         "Upgrade your restaurant or café with a modern digital system!* I am selling a *ready-to-use website* for *food & beverage ordering via QR Code, complete with **Admin & Cashier roles",
       image: "/cofee.jpeg",
