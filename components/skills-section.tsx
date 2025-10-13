@@ -21,15 +21,18 @@ export function SkillsSection() {
     "Git",
     "VS Code",
     "Vercel",
-    "Framer Motion",
-    "Prisma",
-    "Supabase",
     "Node.js",
-    "Express",
+    "Next.js",
     "MongoDB",
     "PostgreSQL",
     "Docker",
-    "AWS",
+    "Mysql",
+    "Jira",
+    "Trello",
+    "Notio",
+    "Postman",
+    "Burp Suite",
+ 
   ]
 
   return (
