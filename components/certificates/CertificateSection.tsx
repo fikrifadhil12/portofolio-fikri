@@ -6,7 +6,7 @@ const certificates = [
     title: "Bug Bounty Penprov Bali",
     issuer: "Pemerintah Provinsi Bali",
     year: "Des-2025",
-    image: "Bounty_penprov_Bali.jpg",
+    image: "/certificates/Bounty_penprov_Bali.jpg",
     link: "https://drive.google.com/file/d/1OiDzNIk2EOhwMn2JFQDM_foH89Fu6r_T/view?usp=drive_link",
   },
 ]
