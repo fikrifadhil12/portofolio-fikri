@@ -17,6 +17,14 @@ export function SkillsSection() {
     { name: "Design Systems", level: 82 },
   ]
 
+  const qaSkills = [
+    { name: "Manual Testing", level: 90 },
+    { name: "Test Case & Documentation", level: 88 },
+    { name: "API Testing", level: 85 },
+    { name: "Usability Testing", level: 82 },
+    { name: "Bug Reporting & Tracking", level: 90 },
+  ]
+
   const tools = [
     "Git",
     "VS Code",
@@ -26,38 +34,48 @@ export function SkillsSection() {
     "MongoDB",
     "PostgreSQL",
     "Docker",
-    "Mysql",
+    "MySQL",
     "Jira",
     "Trello",
-    "Notio",
+    "Notion",
     "Postman",
     "Burp Suite",
- 
+    "Nmap",
+    "Katalon",
   ]
 
   return (
     <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
       <div className="max-w-6xl mx-auto">
+        {/* HEADER */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">Skills & Expertise</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
+            Skills & Expertise
+          </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Teknologi dan alat yang saya gunakan untuk mewujudkan ide
+            Teknologi, tools, dan keahlian yang saya gunakan dalam pengembangan dan pengujian aplikasi
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
+        {/* SKILLS GRID */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+          {/* FRONTEND */}
           <Card className="p-6 bg-card border-border">
-            <h3 className="text-xl font-semibold text-foreground mb-6">Frontend Development</h3>
+            <h3 className="text-xl font-semibold text-foreground mb-6">
+              Frontend Development
+            </h3>
             <div className="space-y-4">
               {frontendSkills.map((skill) => (
                 <div key={skill.name}>
                   <div className="flex justify-between mb-2">
-                    <span className="text-foreground font-medium">{skill.name}</span>
-                    <span className="text-muted-foreground">{skill.level}%</span>
+                    <span className="font-medium">{skill.name}</span>
+                    <span className="text-muted-foreground">
+                      {skill.level}%
+                    </span>
                   </div>
                   <div className="w-full bg-muted rounded-full h-2">
                     <div
-                      className="bg-primary h-2 rounded-full transition-all duration-1000 ease-out"
+                      className="bg-primary h-2 rounded-full transition-all duration-1000"
                       style={{ width: `${skill.level}%` }}
                     />
                   </div>
@@ -66,18 +84,48 @@ export function SkillsSection() {
             </div>
           </Card>
 
+          {/* DESIGN */}
           <Card className="p-6 bg-card border-border">
-            <h3 className="text-xl font-semibold text-foreground mb-6">Design & UX</h3>
+            <h3 className="text-xl font-semibold text-foreground mb-6">
+              Design & UX
+            </h3>
             <div className="space-y-4">
               {designSkills.map((skill) => (
                 <div key={skill.name}>
                   <div className="flex justify-between mb-2">
-                    <span className="text-foreground font-medium">{skill.name}</span>
-                    <span className="text-muted-foreground">{skill.level}%</span>
+                    <span className="font-medium">{skill.name}</span>
+                    <span className="text-muted-foreground">
+                      {skill.level}%
+                    </span>
                   </div>
                   <div className="w-full bg-muted rounded-full h-2">
                     <div
-                      className="bg-accent h-2 rounded-full transition-all duration-1000 ease-out"
+                      className="bg-accent h-2 rounded-full transition-all duration-1000"
+                      style={{ width: `${skill.level}%` }}
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </Card>
+
+          {/* QUALITY ASSURANCE */}
+          <Card className="p-6 bg-card border-border">
+            <h3 className="text-xl font-semibold text-foreground mb-6">
+              Quality Assurance
+            </h3>
+            <div className="space-y-4">
+              {qaSkills.map((skill) => (
+                <div key={skill.name}>
+                  <div className="flex justify-between mb-2">
+                    <span className="font-medium">{skill.name}</span>
+                    <span className="text-muted-foreground">
+                      {skill.level}%
+                    </span>
+                  </div>
+                  <div className="w-full bg-muted rounded-full h-2">
+                    <div
+                      className="bg-green-500 h-2 rounded-full transition-all duration-1000"
                       style={{ width: `${skill.level}%` }}
                     />
                   </div>
@@ -87,14 +135,17 @@ export function SkillsSection() {
           </Card>
         </div>
 
+        {/* TOOLS */}
         <Card className="p-6 bg-card border-border">
-          <h3 className="text-xl font-semibold text-foreground mb-6">Tools & Technologies</h3>
+          <h3 className="text-xl font-semibold text-foreground mb-6">
+            Tools & Technologies
+          </h3>
           <div className="flex flex-wrap gap-2">
             {tools.map((tool) => (
               <Badge
                 key={tool}
                 variant="secondary"
-                className="bg-muted text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors duration-200"
+                className="bg-muted text-muted-foreground hover:bg-primary hover:text-primary-foreground transition"
               >
                 {tool}
               </Badge>
